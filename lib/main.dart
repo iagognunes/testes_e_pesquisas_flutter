@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-
-import 'components/data_table_2.dart';
+import 'components/DataTableDemo/data_table_demo.dart';
 
 void main() {
   runApp(const MyApp());
@@ -17,7 +16,9 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const MyHomePage(title: 'data_table2',),
+      home: const MyHomePage(
+        title: 'data_table2',
+      ),
     );
   }
 }
@@ -39,7 +40,7 @@ class _MyHomePageState extends State<MyHomePage> {
         title: Text(widget.title),
       ),
       body: const Center(
-        child: PaginatedDataTable2Demo(),
+        child: MyStatelessWidget(),
       ), // This trailing comma makes auto-formatting nicer for build methods.
     );
   }
