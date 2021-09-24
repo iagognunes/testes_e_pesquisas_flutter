@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       home: const MyHomePage(
-        title: 'data_table2',
+        title: 'Teste DashBoard',
       ),
     );
   }
